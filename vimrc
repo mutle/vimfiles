@@ -32,6 +32,7 @@ set softtabstop=2
 
 set grepprg=ack
 
+source ~/.vim/keystrokes/bufexplorer.vim
 source ~/.vim/keystrokes/code.vim
 source ~/.vim/keystrokes/fuzzyfinder_textmate.vim
 source ~/.vim/keystrokes/navigation.vim
