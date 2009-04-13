@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 let g:NERDTreeMapOpenSplit = 'i'
 set nu
 set sts=2
@@ -14,7 +16,7 @@ colorscheme vibrantink
 filetype plugin on
 filetype on
 
-if has("gui")
+if has("gui_running")
   set gfn=BitStreamVeraSansMono:h16
 endif
 
@@ -82,6 +84,8 @@ set t_Co=256
 "hide buffers when not displayed
 set hidden
 
+" assume the /g flag on :s substitutions to replace all matches in a line:
+set gdefault
 
 source ~/.vim/keystrokes/bufexplorer.vim
 source ~/.vim/keystrokes/code.vim
@@ -89,4 +93,5 @@ source ~/.vim/keystrokes/fuzzyfinder_textmate.vim
 source ~/.vim/keystrokes/navigation.vim
 source ~/.vim/keystrokes/NERD_commenter.vim
 source ~/.vim/keystrokes/NERD_tree.vim
+source ~/.vim/keystrokes/shell.vim
 source ~/.vim/keystrokes/taglist.vim

@@ -690,7 +690,7 @@ function s:SetUpForNewFiletype(filetype, forceReset)
     elseif a:filetype == "rtf"
         call s:MapDelimiters('', '')
     elseif a:filetype == "ruby"
-        call s:MapDelimiters('#','')
+        call s:MapDelimiters('# ','')
     elseif a:filetype == "sa"
         call s:MapDelimiters('--','')
     elseif a:filetype == "samba"
