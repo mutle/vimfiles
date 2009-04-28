@@ -93,5 +93,6 @@ source ~/.vim/keystrokes/fuzzyfinder_textmate.vim
 source ~/.vim/keystrokes/navigation.vim
 source ~/.vim/keystrokes/NERD_commenter.vim
 source ~/.vim/keystrokes/NERD_tree.vim
+source ~/.vim/keystrokes/rubytest.vim
 source ~/.vim/keystrokes/shell.vim
-source ~/.vim/keystrokes/taglist.vim
+" source ~/.vim/keystrokes/taglist.vim
