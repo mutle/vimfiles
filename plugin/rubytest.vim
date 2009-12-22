@@ -15,10 +15,10 @@ if !exists("g:rubytest_cmd_testcase")
   let g:rubytest_cmd_testcase = "ruby %p -n '/%c/'"
 endif
 if !exists("g:rubytest_cmd_spec")
-  let g:rubytest_cmd_spec = "spec -f specdoc %p"
+  let g:rubytest_cmd_spec = "./script/spec -f specdoc %p"
 endif
 if !exists("g:rubytest_cmd_example")
-  let g:rubytest_cmd_example = "spec -f specdoc %p -e '%c'"
+  let g:rubytest_cmd_example = "./script/spec -f specdoc %p -e '%c'"
 endif
 
 function s:FindCase(patterns)

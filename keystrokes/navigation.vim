@@ -22,5 +22,10 @@ nmap <leader>s :split<CR> <C-w><C-w>
 " Make it way easier to switch windows (<leader>w)
 nmap <leader>w <C-w><C-w>_
 
+nmap ,h <C-w>h
+nmap ,j <C-w>j
+nmap ,k <C-w>k
+nmap ,l <C-w>l
+
 " \F to startup an ack search
 map <leader>F :Ack<space>

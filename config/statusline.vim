@@ -33,6 +33,7 @@ set statusline+=%h      "help file flag
 set statusline+=%y      "filetype
 set statusline+=%r      "read only flag
 set statusline+=%m      "modified flag
+set statusline+=\ %{GitBranch()}
 
 "display a warning if &et is wrong, or we have mixed-indenting
 set statusline+=%#error#

@@ -8,6 +8,10 @@ set sts=2
 highlight Pmenu ctermbg=4 ctermfg=1 guibg=grey20 gui=bold
 
 set nocompatible
+set autoread
+set go-=T
+set cpoptions+=$
+set virtualedit=all
 
 syntax on
 
@@ -28,6 +32,8 @@ set backspace=indent,eol,start
 set fileformats=unix,mac,dos
 set iskeyword+=_,$,@,%,#,-,48-57,192-255
 set history=1000
+set complete-=i
+set display=lastline
 
 set showcmd     "show incomplete cmds down the bottom
 set showmode    "show current mode down the bottom
@@ -42,7 +48,7 @@ set linebreak   "wrap lines at convenient points
 set background=dark
 set softtabstop=2
 
-set grepprg=ack
+set grepprg=grep
 
 "indent settings
 set shiftwidth=2
@@ -87,6 +93,10 @@ set hidden
 " assume the /g flag on :s substitutions to replace all matches in a line:
 set gdefault
 
+let g:rubycomplete_buffer_loading = 1
+let g:rubycomplete_rails = 1
+
+
 source ~/.vim/keystrokes/bufexplorer.vim
 source ~/.vim/keystrokes/code.vim
 source ~/.vim/keystrokes/fuzzyfinder_textmate.vim
@@ -96,3 +106,9 @@ source ~/.vim/keystrokes/NERD_tree.vim
 source ~/.vim/keystrokes/rubytest.vim
 source ~/.vim/keystrokes/shell.vim
 " source ~/.vim/keystrokes/taglist.vim
+
+augroup objective-j
+  au! BufRead,BufNewFile *.j set filetype=objective-j
+  au! Syntax objective-j source ~/.vim/syntax/objj.vim
+augroup END
+

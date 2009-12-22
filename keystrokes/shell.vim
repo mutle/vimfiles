@@ -1,4 +1,7 @@
 " SHELL
+
+nmap ,cd :lcd %:h<CR>
+
 command! -complete=file -nargs=+ Shell call s:RunShellCommand(<q-args>)
 
 function! s:RunShellCommand(cmdline)
