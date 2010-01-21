@@ -101,12 +101,12 @@ let s:test_case_patterns['spec'] = {'^\s*it \s*"':function('s:GetSpecName1')}
 let s:save_cpo = &cpo
 set cpo&vim
 
-if !hasmapto('<Plug>RubyTestRun')
-  map <unique> <Leader>t <Plug>RubyTestRun
-endif
-if !hasmapto('<Plug>RubyFileRun')
-  map <unique> <Leader>T <Plug>RubyFileRun
-endif
+" if !hasmapto('<Plug>RubyTestRun')
+"   map <unique> <Leader>t <Plug>RubyTestRun
+" endif
+" if !hasmapto('<Plug>RubyFileRun')
+"   map <unique> <Leader>T <Plug>RubyFileRun
+" endif
 
 function s:IsRubyTest()
   for pattern in keys(s:test_patterns)
