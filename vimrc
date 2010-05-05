@@ -100,7 +100,6 @@ let g:rubycomplete_rails = 1
 
 source ~/.vim/keystrokes/bufexplorer.vim
 source ~/.vim/keystrokes/code.vim
-source ~/.vim/keystrokes/fuzzyfinder_textmate.vim
 source ~/.vim/keystrokes/navigation.vim
 source ~/.vim/keystrokes/NERD_commenter.vim
 source ~/.vim/keystrokes/NERD_tree.vim
