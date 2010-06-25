@@ -16,3 +16,9 @@
 [submodule "bundle/tpope-git"]
 	path = bundle/tpope-git
 	url = http://github.com/tpope/vim-git.git
+[submodule "bundle/msanders-cocoa"]
+	path = bundle/msanders-cocoa
+	url = http://github.com/msanders/cocoa.vim.git
+[submodule "bundle/ruby"]
+	path = bundle/ruby
+	url = http://github.com/vim-ruby/vim-ruby.git
