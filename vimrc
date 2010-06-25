@@ -8,6 +8,9 @@ set sts=2
 highlight Pmenu ctermbg=4 ctermfg=1 guibg=grey20 gui=bold
 
 set nocompatible
+
+silent! call pathogen#runtime_append_all_bundles()
+
 set autoread
 set go-=T
 set cpoptions+=$
@@ -15,18 +18,17 @@ set virtualedit=all
 
 syntax on
 
-colorscheme vibrantink
+"colorscheme vibrantink
+"colorscheme vividchalk
+colorscheme topfunky-light
 
 filetype plugin on
 filetype on
 
-if has("gui_running")
-  set gfn=BitStreamVeraSansMono:h16
-endif
-
 "set directory=/tmp
 set wm=2
 set number
+set ruler
 set cursorline
 set backspace=indent,eol,start
 set fileformats=unix,mac,dos
@@ -40,6 +42,8 @@ set showmode    "show current mode down the bottom
 
 set incsearch   "find the next match as we type the search
 set hlsearch    "hilight searches by default
+set ignorecase
+set smartcase
 
 "set nowrap      "dont wrap lines
 set linebreak   "wrap lines at convenient points
@@ -53,6 +57,7 @@ set grepprg=grep
 "indent settings
 set shiftwidth=2
 set softtabstop=2
+set laststatus=2
 set expandtab
 set autoindent
 
@@ -77,6 +82,12 @@ set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
+set title
+set visualbell
+
+set nobackup
+set nowritebackup
+
 filetype indent on
 
 source ~/.vim/config/statusline.vim
@@ -97,9 +108,9 @@ set gdefault
 let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_rails = 1
 
-
 source ~/.vim/keystrokes/bufexplorer.vim
 source ~/.vim/keystrokes/code.vim
+source ~/.vim/keystrokes/command-t.vim
 source ~/.vim/keystrokes/navigation.vim
 source ~/.vim/keystrokes/NERD_commenter.vim
 source ~/.vim/keystrokes/NERD_tree.vim
@@ -111,4 +122,3 @@ augroup objective-j
   au! BufRead,BufNewFile *.j set filetype=objective-j
   au! Syntax objective-j source ~/.vim/syntax/objj.vim
 augroup END
-
