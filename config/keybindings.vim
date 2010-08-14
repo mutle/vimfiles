@@ -26,13 +26,18 @@ nmap ,j <C-w>j
 nmap ,k <C-w>k
 nmap ,l <C-w>l
 
+" Get rid of awkward Ex-mode
+map Q <Esc>
+
+" <leader> f - Toggle fullscreen
+map <leader>f :set invfullscreen<CR>
 
 
 " Plugin keybindings
 
 
 " <leader> t - Toggle Tag list
-map <Leader>t :TlistToggle<CR>
+" map <Leader>t :TlistToggle<CR>
 
 
 " Ctrl-b - Show BufExplorer
@@ -43,4 +48,3 @@ map <C-tab> <ESC>:NERDTreeToggle<RETURN>
 
 " <leader> n - Show NerdTree
 map <leader>n <ESC>:NERDTreeToggle<RETURN>
-

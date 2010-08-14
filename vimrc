@@ -142,6 +142,9 @@ set hidden
 " Assume the /g flag on :s substitutions to replace all matches in a line:
 set gdefault
 
+" Use rake as the default make program
+set makeprg=rake
+
 " Custom status line
 source ~/.vim/config/statusline.vim
 

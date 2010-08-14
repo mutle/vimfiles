@@ -8,4 +8,8 @@ set encoding=utf-8
 set guioptions-=T
 
 set background=light
-set guioptions-=r
+set guioptions-=L
+set guioptions+=r
+
+set lines=84 columns=180
+set fuoptions=maxvert,maxhorz

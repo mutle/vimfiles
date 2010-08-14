@@ -34,6 +34,7 @@ set statusline+=%y      "filetype
 set statusline+=%r      "read only flag
 set statusline+=%m      "modified flag
 set statusline+=\ %{GitBranch()}
+set statusline+=%{rvm#statusline()}
 
 "display a warning if &et is wrong, or we have mixed-indenting
 set statusline+=%#error#

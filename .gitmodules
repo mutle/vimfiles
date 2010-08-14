@@ -22,3 +22,9 @@
 [submodule "bundle/ruby"]
 	path = bundle/ruby
 	url = http://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/csexton-rvm"]
+	path = bundle/csexton-rvm
+	url = http://github.com/csexton/rvm.vim.git
+[submodule "bundle/janx-vim-rubytest"]
+	path = bundle/janx-vim-rubytest
+	url = git://github.com/janx/vim-rubytest.git
