@@ -28,3 +28,9 @@
 [submodule "bundle/janx-vim-rubytest"]
 	path = bundle/janx-vim-rubytest
 	url = git://github.com/janx/vim-rubytest.git
+[submodule "bundle/leshill-vim-json"]
+	path = bundle/leshill-vim-json
+	url = git://github.com/leshill/vim-json.git
+[submodule "bundle/pangloss-vim-javascript"]
+	path = bundle/pangloss-vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
