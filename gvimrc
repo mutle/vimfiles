@@ -13,3 +13,6 @@ set guioptions+=r
 
 set lines=84 columns=180
 set fuoptions=maxvert,maxhorz
+
+" Command-e for ConqueTerm
+map <D-e> :call StartTerm()<CR>

@@ -142,11 +142,22 @@ set hidden
 " Assume the /g flag on :s substitutions to replace all matches in a line:
 set gdefault
 
+" Show invisible characters
+set invlist
+
 " Use rake as the default make program
 set makeprg=rake
+
+" ConqueTerm wrapper
+function StartTerm()
+  execute 'ConqueTerm ' . $SHELL . ' --login'
+  setlocal listchars=tab:\ \ 
+endfunction
 
 " Custom status line
 source ~/.vim/config/statusline.vim
 
 " Custom keybindings
 source ~/.vim/config/keybindings.vim
+
+source ~/.vim/config/plugins.vim

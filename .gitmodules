@@ -34,3 +34,9 @@
 [submodule "bundle/pangloss-vim-javascript"]
 	path = bundle/pangloss-vim-javascript
 	url = git://github.com/pangloss/vim-javascript.git
+[submodule "bundle/yaroot-wowlua"]
+	path = bundle/yaroot-wowlua
+	url = git://github.com/yaroot/wowlua.vim.git
+[submodule "bundle/hallison-markdown"]
+	path = bundle/hallison-markdown
+	url = git://github.com/hallison/vim-markdown.git

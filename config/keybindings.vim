@@ -48,3 +48,6 @@ map <C-tab> <ESC>:NERDTreeToggle<RETURN>
 
 " <leader> n - Show NerdTree
 map <leader>n <ESC>:NERDTreeToggle<RETURN>
+
+" Command-e for ConqueTerm
+map <D-e> :call StartTerm()<CR>
