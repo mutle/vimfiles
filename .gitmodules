@@ -40,3 +40,24 @@
 [submodule "bundle/hallison-markdown"]
 	path = bundle/hallison-markdown
 	url = git://github.com/hallison/vim-markdown.git
+[submodule "kana-textobj-user"]
+	path = kana-textobj-user
+	url = git://github.com/kana/vim-textobj-user.git
+[submodule "nelstrom-textobj-rubyblock"]
+	path = nelstrom-textobj-rubyblock
+	url = git://github.com/nelstrom/vim-textobj-rubyblock.git
+[submodule "edsono-matchit"]
+	path = edsono-matchit
+	url = git://github.com/edsono/vim-matchit.git
+[submodule "bundle/grayrest-vim-coffee-script"]
+	path = bundle/grayrest-vim-coffee-script
+	url = git://github.com/grayrest/vim-coffee-script.git
+[submodule "bundle/sjl-gundo"]
+	path = bundle/sjl-gundo
+	url = git://github.com/sjl/gundo.vim.git
+[submodule "bundle/conqueterm/skammer-vim-css-color"]
+	path = bundle/conqueterm/skammer-vim-css-color
+	url = git://github.com/skammer/vim-css-color.git
+[submodule "bundle/skammer-vim-css-color"]
+	path = bundle/skammer-vim-css-color
+	url = git://github.com/skammer/vim-css-color.git

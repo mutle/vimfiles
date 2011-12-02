@@ -51,3 +51,10 @@ map <leader>n <ESC>:NERDTreeToggle<RETURN>
 
 " Command-e for ConqueTerm
 map <D-e> :call StartTerm()<CR>
+
+" <leader> u - Gundo
+nnoremap <leader>u :GundoToggle<CR>
+
+" <leader> r - XCode run
+map <leader>r <ESC>:XcodeDebug<CR>
+

@@ -1,5 +1,5 @@
 " Font - Menlo 14px
-set gfn=Menlo:h14
+set gfn=Meslo\ LG\ S\ DZ:h14
 
 set antialias
 set encoding=utf-8

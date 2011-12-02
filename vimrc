@@ -3,6 +3,8 @@ filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
+runtime macros/matchit.vim
+
 " Setup environment
 scriptencoding utf-8
 set nu
@@ -161,3 +163,5 @@ source ~/.vim/config/statusline.vim
 source ~/.vim/config/keybindings.vim
 
 source ~/.vim/config/plugins.vim
+
+source ~/.vim/config/custom.vim
